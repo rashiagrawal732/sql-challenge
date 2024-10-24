@@ -1,6 +1,5 @@
 # sql-challenge
 
-Background
+Overview
 
-It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
-For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
+This project involves the creation and management of a database schema for a fictional company, Pewlett Hackard. The database consists of six tables: departments, dept_manager, dept_emp, employees, salaries, and titles. Each table is designed with appropriate primary and foreign keys to maintain data integrity. The project also includes the import of historical employee data from CSV files and the execution of various SQL queries to retrieve specific information about employees, department managers, and salary details. The schema and queries are organized in two .sql files as seen above. 
